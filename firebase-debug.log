@@ -1,0 +1,34 @@
+[debug] [2021-02-20T13:37:59.234Z] ----------------------------------------------------------------------
+[debug] [2021-02-20T13:37:59.237Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tshep\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-02-20T13:37:59.237Z] CLI Version:   9.4.0
+[debug] [2021-02-20T13:37:59.237Z] Platform:      win32
+[debug] [2021-02-20T13:37:59.237Z] Node Version:  v14.15.0
+[debug] [2021-02-20T13:37:59.596Z] Time:          Sat Feb 20 2021 15:37:59 GMT+0200 (South Africa Standard Time)
+[debug] [2021-02-20T13:37:59.596Z] ----------------------------------------------------------------------
+[debug] [2021-02-20T13:37:59.596Z] 
+[debug] [2021-02-20T13:37:59.663Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-20T13:37:59.664Z] > authorizing via signed-in user
+[debug] [2021-02-20T13:37:59.664Z] [iam] checking project kazi-vibe for permissions ["firebase.projects.get"]
+[debug] [2021-02-20T13:37:59.667Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-02-20T13:37:59.668Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-20T13:38:00.417Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sat, 20 Feb 2021 13:38:00 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-20T13:38:00.580Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/kazi-vibe:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-02-20T13:38:01.881Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 20 Feb 2021 13:38:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=551","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-20T13:38:01.883Z] > refreshing access token with scopes: []
+[debug] [2021-02-20T13:38:01.884Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-20T13:38:02.760Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 20 Feb 2021 13:38:02 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-20T13:38:03.206Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe [none]
+[debug] [2021-02-20T13:38:04.582Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe 200
+[debug] [2021-02-20T13:38:04.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe {"projectId":"kazi-vibe","projectNumber":"607568572487","displayName":"kazi-vibe","name":"projects/kazi-vibe","resources":{"hostingSite":"kazi-vibe"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\tshep\Desktop\projects\kazivibes'...
+[info] 
+[debug] [2021-02-20T13:38:04.586Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe/webApps/-/config [none]
+[debug] [2021-02-20T13:38:05.697Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe/webApps/-/config 200
+[debug] [2021-02-20T13:38:05.698Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kazi-vibe/webApps/-/config {"projectId":"kazi-vibe","appId":"1:607568572487:web:07b95a5086e0cb94304162","storageBucket":"kazi-vibe.appspot.com","apiKey":"AIzaSyDT-PUsBMlH7j2zmgK8xl4UzAl_nW1HS7E","authDomain":"kazi-vibe.firebaseapp.com","messagingSenderId":"607568572487","measurementId":"G-LL9072CFXM"}
+[info] i  hosting: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [20/Feb/2021:13:39:44 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [20/Feb/2021:13:39:44 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36\""}}
